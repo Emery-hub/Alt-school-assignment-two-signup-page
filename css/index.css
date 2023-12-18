@@ -1,0 +1,96 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f7fdfc;
+}
+
+.main {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.form {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: space-around;
+  gap: 5rem;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 580px;
+  height: 679px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.1);
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.form-content {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 2rem;
+}
+button {
+  width: 500px;
+  height: 48px;
+  flex-shrink: 0;
+  background-color: #2ec4b6;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  /* font-family: Sofia Pro; */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+  /* filter: drop-shadow(0px 10px 40px rgba(0, 0, 0, 0.1)); */
+}
+span a {
+  color: #2ec4b6;
+}
+.name {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.gender {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  gap: 5px;
+}
+.weight {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  gap: 5px;
+}
+.activity {
+  display: flex;
+  flex-direction: column;
+}
+.password {
+  display: flex;
+  flex-direction: column;
+}
